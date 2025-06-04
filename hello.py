@@ -141,8 +141,8 @@ def main():
             print(
                 f"   Total runs: {row['total_runs']} (Failed: {row['failed_count']}, Flaked: {row['flaked_count']})"
             )
-            print(f"   Exit codes: {row['exit_codes']}")
-            print(f"   Durations: {row['durations']}")
+            # print(f"   Exit codes: {row['exit_codes']}")
+            # print(f"   Durations: {row['durations']}")
 
         # Also show a summary by status
         print("\n\nSummary by status:")
