@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+failed_tests_48h.csv
+failed_tests.csv
+test_summary_48h.csv
